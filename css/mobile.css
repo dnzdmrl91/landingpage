@@ -1,0 +1,53 @@
+@media(max-width:500px)
+{
+
+    #navbar{
+        
+  
+        flex-direction:column;
+
+        padding:1rem 0rem 1rem 0rem ;
+        overflow: hidden;
+        height: 100px;
+    }
+
+    #navbar ul {
+
+        margin-top:0.5rem;
+    }
+  
+
+    #training .items{
+
+     
+        display:flex;
+        flex-direction:column;
+        
+    }
+
+    #training .items .item{
+
+     
+       width:100%;
+       text-align: center;
+    }
+  
+    .courses .course{
+     
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .courses .course .course-image span{
+
+        background:red;
+        color:white;
+        padding:0.25rem;
+        border-radius: 4px;
+        position:absolute;
+        left:24%;
+        top:0.25rem;
+        
+    }
+   
+}

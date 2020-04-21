@@ -1,0 +1,178 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-family: "Open Sans", sans-serif;
+}
+
+a{
+
+    text-decoration: none;
+    color:#fff;
+}
+#navbar{
+    
+    color:#fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75 rem;
+    height: 70px;
+    
+    
+}
+
+
+
+#navbar ul{
+    
+    list-style:none;
+    display:flex;
+    align-items: center;
+}
+
+
+
+
+#navbar ul li a{
+
+    padding:0.5rem;
+    font-size: 1.25rem;
+}
+
+#navbar ul li a:hover{
+
+    color:#336ea2;
+}
+
+#home{
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img{
+
+     max-width: 100%;
+     height: auto;
+     border-radius: 100%;
+}
+
+#home .name{
+
+    text-align: center;
+}
+
+#home .name h2{
+
+    margin-bottom: 0.75rem;
+}
+
+#home .name p{
+
+   opacity: 0.6;
+   font-style: italic;
+}
+
+#training{
+    padding:1rem;
+    background:#336ea2;
+}
+
+#training h3{
+
+    margin-bottom: 0.5rem;
+}
+
+#training .items{
+   
+    
+    display:flex;
+    justify-content:space-between;
+
+}
+
+#training .items .item{
+
+    width:33%;
+    align-items: center;
+  
+
+}
+
+#courses{
+
+    padding:1rem;
+    color:#333;
+}
+
+.courses{
+
+    
+    justify-content: center;
+    padding:1rem;
+}
+
+.courses .course{
+    text-align:center;
+    padding:0.5rem;
+    
+     
+}
+
+.courses .course .course-image{
+
+    margin-right: 0.5rem;
+    position:relative;
+    
+}
+
+.courses .course .course-image img{
+
+    border-radius:5px;
+}
+
+.courses .course .course-image span{
+
+    background:red;
+    color:white;
+    padding:0.25rem;
+    border-radius: 4px;
+    position:absolute;
+    left:43%;
+    top:0.25rem;
+    
+}
+
+
+.courses .course .course-info .title{
+
+    
+    font-weight:700;
+    margin-bottom:0.25rem;
+    margin: auto;
+    
+}
+
+#contact{
+    padding: 1rem;
+    color:#fff;
+}
+
+#contact .contact-form{
+        max-width: 700px;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        flex-direction:column;
+}
